@@ -54,6 +54,10 @@ header nav a:any-link {
   color: currentcolor;
 }
 
+header nav a:hover {
+  background-color: var(--brandPrimary,#ffea00)
+}
+
 /* hamburger */
 header nav .nav-hamburger {
   grid-area: hamburger;
